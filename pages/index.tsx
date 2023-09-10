@@ -17,24 +17,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>
-          <Avatar text="Hi" color="gradient" textColor={'white'} size={'xl'} />
-        </h1>
         <h1 className={styles.title}>
-          Welcome to use <a href="https://nextui.org/">NextUI!</a>
+          brain swap
         </h1>
-        {/* checkout */}
-        <h2>Checkbox:</h2>
-        <CustomCheckbox></CustomCheckbox>
-        {/* table */}
-        <h2>Table:</h2>
-        <CustomTable></CustomTable>
+        <h3>the evolution of human philosophy is the evolution of AI philosophy</h3>
         {/* pagination */}
-        <h2>Pagination</h2>
+        <h2>your brain</h2>
+        <h2>explore swaps</h2>
         <Pagination total={20} initialPage={1} />
-        {/* collapse */}
-        <h2>Collapse</h2>
-        <CustomCollapse></CustomCollapse>
+        <h2>create a swap</h2>
       </main>
       <footer className={styles.footer}>
         <a
@@ -42,10 +33,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          copyright 2023 by brain swap
         </a>
       </footer>
     </div>
