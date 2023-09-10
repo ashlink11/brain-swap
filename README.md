@@ -3,11 +3,12 @@ yarn create next-app --example with-next-ui with-next-ui-app
 yarn install
 ❯ yarn add -D tailwindcss postcss autoprefixer
 ❯ yarn tailwindcss init -p     
+yarn dev
 ```
 
 live app: https://brain-swap.vercel.app/
 
-next:
+todo:
 - test tailwindcss https://nextui.org/docs/guide/installation 
 - make an App folder?
 
